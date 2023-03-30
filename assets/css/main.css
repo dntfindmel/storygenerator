@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to bottom, white, gray, black);
+    height: 100vh;
+}
+
+.name {
+    margin-top: .5rem;
+    font-weight: 400;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.radio {
+    margin:1rem 0;
+    font-weight: bold;
+}
+
+.generate {
+    width: 15%;
+    margin: 0 auto;
+}
+
+#story {
+    padding-top: 1rem;;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 440px) {
+    .generate {
+        width: 80%;
+    }
+
+    #story {
+        width: 90%
+    }
+}
